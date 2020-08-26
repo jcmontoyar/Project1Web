@@ -1,0 +1,84 @@
+body, html{
+    overflow-x: hidden;
+}
+.content {
+    margin-top: 70px; /* Add a top margin to avoid content overlay */
+}
+
+.colorNav{
+    background-color: rgb(57, 37, 80);
+}
+
+.navTitles{
+    font-family: roboto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.proj{
+    background-color: rgb(243, 222, 222);
+    border-left: 15;
+}
+
+.altura{
+    height: 200px;
+}
+
+.backgroundWhite{
+    background-color:  rgb(241, 234, 234);
+}
+
+.tamanioImg{
+    height: 230px;
+    width: 390px;
+}
+
+p,p1,p2,p3{
+    font-size:1.5vw
+}
+
+h2{
+    font-family: roboto;
+    font-size: 50px;
+    color: rgb(218, 109, 69);
+    font-weight: bolder;
+}
+
+h3{
+    font-family: roboto;
+    font-size: 50px;
+    color: rgb(241, 161, 132);
+    font-weight: bolder;
+}
+
+h1,h4{
+    color: rgb(37, 80, 57);
+}
+
+.moraditoMasClaro{
+    background-color: rgb(80, 37, 60);
+}
+
+.tamanioUni{
+    width: 150px;
+    height: 150px;
+}
+
+.socialMedia{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titleCarrousel{
+    color: rgb(255, 255, 255);
+    background-color: rgba(14, 61, 61, 0.411);
+}
+
+.paragraphCarousel{
+    color: white;
+    background-color: rgba(0, 128, 128, 0.411);;
+}
+
+.p_white{
+    color: white
+}
