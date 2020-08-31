@@ -82,3 +82,18 @@ h1,h4{
 .p_white{
     color: white
 }
+
+/* Aqui hago el cambio del carousel cuando cambia el tamaño */
+
+@media (max-width: 520px ){
+    .carousel {
+        width: 50vh;
+    }
+
+    .carousel p {
+        font-size: 1.5vh !important;
+    }
+}
+
+
+/* En general, el css me parece muy claro y bien extructurado */

@@ -56,6 +56,8 @@
         <div class="col-2"></div>
         <div class="col-8 align-self-center ">
           <!--Carousel Wrapper-->
+          <!-- Este carrusel me parace fantastico, no lo use en mi proyecto porque no sabia como usarlo, pero me parece genial.
+          Lo que si me parece es que se ve muy pequeño en el modo para telefonos, por lo que usar un media query podría funcionar -->
           <div id="carouselIntro" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
             <!--Indicators-->
             <ol class="carousel-indicators">
@@ -131,6 +133,7 @@
           <div class="col-xl-3 col-lg-3 col-md-3 d-none d-lg-block align-self-center">
             <h3>Description</h3>
           </div>
+          <!-- Por alguna razon esta parte no está centrada.-->
           <div class="col-xl-3 col-lg-3 col-md-3 d-none d-lg-block align-self-center">
             <h3>Technologies used</h3>
           </div>
@@ -348,11 +351,13 @@
       <nav class="navbar navbar-dark colorNav">
         <a class="navbar-brand navTitles" href="#">Contact me:</a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <!-- Aunque no es algo obviamente necesario, tal vez agregando en el href el correo y el telefono.
+          A continuación haré el cambio.-->
           <li class="nav-item">
-            <a class="nav-link navTitles">Mail: jc.montoyar@uniandes.edu.co</a>
+            <a class="nav-link navTitles" href="mailto:jc.montoyar@uniandes.edu.co">Mail: jc.montoyar@uniandes.edu.co</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navTitles">3193187936</a>
+            <a class="nav-link navTitles" href="tel:3193187936">3193187936</a>
           </li>   
         </ul>
         <div class="my-2 my-lg-0">
@@ -365,3 +370,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<!-- Respecto a las imagenes, hubiese sido mas provechoso ser más especifico con el alt en cada imagen, y no solo poner "not available"-->
